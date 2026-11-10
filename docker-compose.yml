@@ -7,6 +7,6 @@ services:
     container_name: culinary-project
     restart: unless-stopped
     ports:
-      - "3060:3000"
+      - "3160:3000"
     environment:
       - NODE_ENV=production
